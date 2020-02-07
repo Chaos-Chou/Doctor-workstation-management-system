@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.cancelSubscribeWindowController">
+   <children>
+      <Label layoutX="174.0" layoutY="93.0" text="请输入您预约的日期及预约单号" />
+      <Label layoutX="213.0" layoutY="188.0" text="年" />
+      <Label layoutX="319.0" layoutY="188.0" text="月" />
+      <Label layoutX="426.0" layoutY="188.0" text="日" />
+      <Label layoutX="223.0" layoutY="242.0" text="号患者" />
+      <TextField fx:id="year" layoutX="129.0" layoutY="182.0" prefHeight="24.0" prefWidth="74.0" />
+      <TextField fx:id="month" layoutX="250.0" layoutY="182.0" prefHeight="24.0" prefWidth="54.0" />
+      <TextField fx:id="day" layoutX="359.0" layoutY="182.0" prefHeight="11.0" prefWidth="54.0" />
+      <TextField fx:id="num" layoutX="129.0" layoutY="236.0" prefHeight="36.0" prefWidth="74.0" />
+      <JFXButton fx:id="button" buttonType="RAISED" layoutX="271.0" layoutY="290.0" onAction="#click" text="确 认" />
+   </children>
+</AnchorPane>

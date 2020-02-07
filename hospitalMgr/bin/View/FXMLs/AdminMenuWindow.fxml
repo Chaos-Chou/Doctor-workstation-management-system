@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminMenuWindowController">
+   <children>
+      <Label layoutX="201.0" layoutY="64.0" text="请选择您想要管理的信息" />
+      <JFXButton fx:id="doctor" buttonType="RAISED" layoutX="252.0" layoutY="112.0" onAction="#click1" text="医生管理" />
+      <JFXButton fx:id="patient" buttonType="RAISED" layoutX="252.0" layoutY="148.0" onAction="#click2" text="患者管理" />
+      <JFXButton fx:id="order" buttonType="RAISED" layoutX="252.0" layoutY="182.0" onAction="#click3" text="订单管理" />
+      <JFXButton fx:id="medicine" buttonType="RAISED" layoutX="252.0" layoutY="218.0" onAction="#click4" text="药品管理" />
+      <JFXButton fx:id="room" buttonType="RAISED" layoutX="252.0" layoutY="254.0" onAction="#click5" text="诊室管理" />
+      <JFXButton fx:id="subscribe" buttonType="RAISED" layoutX="252.0" layoutY="290.0" onAction="#click6" text="预约管理" />
+   </children>
+</AnchorPane>

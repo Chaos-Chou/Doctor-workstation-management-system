@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ChangeWorktimeWindowController">
+   <children>
+      <Label layoutX="174.0" layoutY="98.0" text="请选择您想要更改的工作时间段" />
+      <JFXButton fx:id="morning" buttonType="RAISED" layoutX="133.0" layoutY="214.0" onAction="#click1" text="上 午" />
+      <JFXButton fx:id="noon" buttonType="RAISED" layoutX="269.0" layoutY="214.0" onAction="#click2" text="中 午" />
+      <JFXButton fx:id="afternoon" buttonType="RAISED" layoutX="393.0" layoutY="214.0" onAction="#click3" text="下 午" />
+   </children>
+</AnchorPane>

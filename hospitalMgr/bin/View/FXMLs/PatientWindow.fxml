@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PatientWindowController">
+   <children>
+      <TextField fx:id="textField" layoutX="222.0" layoutY="151.0" />
+      <Label layoutX="35.0" layoutY="157.0" text="请输入您的患者编号" />
+      <JFXButton fx:id="button" buttonType="RAISED" layoutX="310.0" layoutY="213.0" onAction="#click" text="确 认" />
+   </children>
+</AnchorPane>

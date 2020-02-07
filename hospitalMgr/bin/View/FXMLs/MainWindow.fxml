@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainWindowController">
+   <children>
+      <Arc layoutX="130.0" layoutY="128.0" length="270.0" radiusX="26.0" radiusY="26.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND">
+         <fill>
+            <LinearGradient endX="1.0" endY="1.0" startX="1.0" startY="0.15763546798029557">
+               <stops>
+                  <Stop color="#bc0000" />
+                  <Stop color="#0673b2" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </fill>
+      </Arc>
+      <Label layoutX="150.0" layoutY="109.0" text="欢迎使用医生工作站系统">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.7635467980295567" startX="1.0" startY="0.5221674876847291">
+               <stops>
+                  <Stop color="#bc0000" />
+                  <Stop color="#0e76c6" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <JFXButton fx:id="button1" buttonType="RAISED" layoutX="76.0" layoutY="264.0" onAction="#clickButton1" text="患者">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.8078817733990147" startX="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#f51a1a" offset="0.005813953488372093" />
+                  <Stop color="#0ab6e1" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </JFXButton>
+      <JFXButton fx:id="button2" buttonType="RAISED" layoutX="263.0" layoutY="264.0" onAction="#clickButton2" text="医生">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.8078817733990147" startX="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#f51a1a" offset="0.005813953488372093" />
+                  <Stop color="#0ab6e1" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </JFXButton>
+      <JFXButton fx:id="button3" buttonType="RAISED" layoutX="432.0" layoutY="264.0" onAction="#clickButton3" text="管理员">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.8078817733990147" startX="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#f51a1a" offset="0.005813953488372093" />
+                  <Stop color="#0ab6e1" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </JFXButton>
+      <Label layoutX="223.0" layoutY="186.0" text="请选择您的身份">
+         <font>
+            <Font size="22.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="0.8078817733990147" startX="1.0">
+               <stops>
+                  <Stop color="WHITE" />
+                  <Stop color="#f51a1a" offset="0.005813953488372093" />
+                  <Stop color="#0ab6e1" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+   </children>
+</AnchorPane>

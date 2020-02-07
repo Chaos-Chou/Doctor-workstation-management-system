@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.findDoctorWindowController">
+   <children>
+      <JFXButton fx:id="button1" buttonType="RAISED" layoutX="371.0" layoutY="253.0" onAction="#click1" text="查 询" />
+      <TextField fx:id="id" layoutX="251.0" layoutY="170.0" prefHeight="36.0" prefWidth="119.0" />
+      <Label layoutX="185.0" layoutY="111.0" text="请输入您想要查询的医生的编号" />
+      <JFXButton fx:id="button" buttonType="RAISED" layoutX="185.0" layoutY="253.0" onAction="#click" text="修 改" />
+   </children>
+</AnchorPane>

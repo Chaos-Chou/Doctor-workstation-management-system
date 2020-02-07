@@ -1,0 +1,47 @@
+数据库建表：
+医生表 doctor
+职工号int  主键
+姓名string
+性别string 
+电话string
+诊室号int
+等级int（0表示普通1表示专家） 
+工作时间段int(1表示上午 2中午 3下午)
+
+患者表 patient
+患者编号int 主键
+姓名string
+性别string
+身份证号string
+电话string
+住址string
+籍贯string
+
+
+药品表 medicine
+药品编号int 主键
+药品名string
+药品生产日期date
+药品有效期至date
+库存int
+价格int
+
+诊室对照表 room
+诊室号int 主键
+诊室名string
+诊室位置string（几层几号）
+
+患者医生表（预约）subscribe
+预约号int (不唯一，但在同天唯一，按当天顺序从1开始)}主
+预约时间date					   }键	
+患者编号int
+医生编号int
+预约状态int（1已预约 2已就诊 3已过期（做扩展））
+
+患者药品表 buymedicine
+订单号int 主键（）
+患者号int
+药品号int
+购买时间timestamp
+购买数量int
+

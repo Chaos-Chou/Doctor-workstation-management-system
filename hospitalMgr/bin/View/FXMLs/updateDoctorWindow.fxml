@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.updateDoctorWindowController">
+   <children>
+      <JFXButton fx:id="button" buttonType="RAISED" layoutX="377.0" layoutY="331.0" onAction="#click" text="确 认" />
+      <TextField fx:id="worktime" layoutX="410.0" layoutY="205.0" prefHeight="36.0" prefWidth="137.0" />
+      <Label layoutX="328.0" layoutY="211.0" text="工作时间" />
+      <TextField fx:id="grade" layoutX="410.0" layoutY="163.0" prefHeight="36.0" prefWidth="137.0" />
+      <Label layoutX="328.0" layoutY="169.0" text="医生等级" />
+      <TextField fx:id="roomid" layoutX="410.0" layoutY="249.0" prefHeight="36.0" prefWidth="137.0" />
+      <Label layoutX="328.0" layoutY="255.0" text="诊室号" />
+      <TextField fx:id="phone" layoutX="165.0" layoutY="295.0" prefHeight="36.0" prefWidth="137.0" />
+      <Label layoutX="74.0" layoutY="301.0" text="医生电话" />
+      <TextField fx:id="gender" layoutX="165.0" layoutY="249.0" prefHeight="36.0" prefWidth="137.0" />
+      <Label layoutX="74.0" layoutY="255.0" text="医生性别" />
+      <TextField fx:id="name" layoutX="165.0" layoutY="205.0" prefHeight="36.0" prefWidth="137.0" />
+      <Label layoutX="74.0" layoutY="211.0" text="医生姓名" />
+      <TextField fx:id="id" layoutX="165.0" layoutY="163.0" prefHeight="36.0" prefWidth="137.0" />
+      <Label layoutX="74.0" layoutY="169.0" text="医生id" />
+      <Label layoutX="202.0" layoutY="70.0" text="请输入要修改的医生的信息" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DoctorManageWindowController">
+   <children>
+      <Label layoutX="201.0" layoutY="78.0" text="请选择对医生管理的操作" />
+      <JFXButton fx:id="add" buttonType="RAISED" layoutX="252.0" layoutY="128.0" onAction="#click1" text="增加医生" />
+      <JFXButton fx:id="delete" buttonType="RAISED" layoutX="252.0" layoutY="164.0" onAction="#click2" text="删除医生" />
+      <JFXButton fx:id="update" buttonType="RAISED" layoutX="252.0" layoutY="200.0" onAction="#click3" text="更新医生" />
+      <JFXButton fx:id="find" buttonType="RAISED" layoutX="252.0" layoutY="236.0" onAction="#click4" text="查询医生" />
+   </children>
+</AnchorPane>
